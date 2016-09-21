@@ -1,3 +1,3 @@
 # README #
 
-Deze repo is voor VIMfiles te dumpen
+This reapo is for my own VIM setup.
