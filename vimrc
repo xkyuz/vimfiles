@@ -1,5 +1,6 @@
 set number
 
+set encoding=utf-8
 
 
 "colortheme
@@ -42,3 +43,9 @@ set autoindent
 " pathogen
 execute pathogen#infect()
 runtime bundle/vim-pathogen/autoload/pathogen.vim
+
+"russian lang support
+set keymap=russian-jcukenwin
+set iminsert=0
+set imsearch=0
+highlight lCursor guifg=NONE guibg=Cyan
